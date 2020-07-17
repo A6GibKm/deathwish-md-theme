@@ -6,6 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Maximiliano"]
   spec.email         = ["contact@deathwish.info"]
 
+  spec.metadata["plugin_type"] = "theme"
   spec.summary       = "Personal theme"
   spec.license       = "MIT"
   spec.homepage      = "https://github.com/A6GibKm/deathwish-md-theme"
