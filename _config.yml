@@ -1,6 +1,4 @@
 markdown: kramdown
-kramdown:
-  math_engine: null
 sass:
   style: compressed
 excerpt_separator: <!-- more -->
