@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "deathwish-md-theme"
-  spec.version       = "0.1.14"
+  spec.version       = "0.1.15"
   spec.authors       = ["Maximiliano"]
   spec.email         = ["contact@deathwish.info"]
 
