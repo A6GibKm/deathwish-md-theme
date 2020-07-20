@@ -3,4 +3,6 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "deathwish-md-theme";
+@import
+    "md-theme/skins/{{ site.minima.skin | default: 'classic' }}",
+    "md-theme/initialize";
