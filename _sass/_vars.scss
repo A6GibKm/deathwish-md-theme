@@ -46,22 +46,12 @@ $light-background: var(--light-background);
 }
 
 
-html[data-theme="light"] {
-  @include light;
-  @import 'syntax-highlight';
-}
-html[data-theme="dark"] {
+html, html[data-theme="light"] {
   @include dark;
   @import 'dark-syntax-highlight';
 }
 
-@media (prefers-color-scheme: dark) {
-  html[data-theme="light"] {
-    @include light;
-    @import 'syntax-highlight';
-  }
-  html[data-theme="dark"] {
-    @include dark;
-    @import 'dark-syntax-highlight';
-  }
+html[data-theme="dark"] {
+  @include light;
+  @import 'syntax-highlight';
 }
