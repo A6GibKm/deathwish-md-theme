@@ -8,3 +8,14 @@ theme: deathwish-md-theme
 
 plugins:
   - jekyll-seo-tag
+
+exclude:
+  - vendor
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - deathwish-md-theme.gemspec
