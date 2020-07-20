@@ -1,7 +1,6 @@
 @import "vars"
 @import "mixins"
-
-@charset "UTF-8"
+@import "layout"
 
 body
   font-weight: 450
@@ -56,10 +55,11 @@ nav ul, footer ul
   font-weight: bold
   font-size: 1.1 * $font-size
 
-ul li.post-list
-  margin-left: -2em
-  &:before
-    content: none
+ul.post-list
+  li
+    margin-left: -2em
+    &:before
+      content: none
 
 nav ul li, footer ul li
   display: inline
@@ -194,7 +194,7 @@ hr
     width: 100%
     word-wrap: break-word
 
-p.abstract, p.description, small
+p.abstract, p.description, small, span.post-meta
   /* line-height: 0.8*$line-height
   font-size: 0.8*$font-size
   color: $secondary

@@ -1,13 +1,12 @@
 markdown: kramdown
-
 kramdown:
   math_engine: null
-
 sass:
   style: compressed
-
 excerpt_separator: <!-- more -->
-
 permalink: pretty
 
 theme: deathwish-md-theme
+
+plugins:
+  - jekyll-seo-tag

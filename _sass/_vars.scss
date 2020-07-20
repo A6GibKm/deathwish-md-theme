@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 $blue: #1E90FF;
 $grey: #f8f8f8;
 $black: #333;
@@ -55,3 +57,8 @@ html[data-theme="dark"] {
   @include light;
   @import 'syntax-highlight';
 }
+
+$spacing-unit:     30px !default;
+
+$border-color-01: $secondary !default;
+$border-color-02: $secondary !default;
