@@ -256,15 +256,12 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
-  // width: 100%;
   margin: auto;
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
-  border: 1px solid $table-border-color;
   tr {
     &:nth-child(even) {
       background-color: $table-zebra-color;
@@ -285,6 +282,7 @@ table {
   @include media-query($on-laptop) {
     display: block;
     overflow-x: auto;
+    width: 100%;
     -webkit-overflow-scrolling: touch;
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
